@@ -36,6 +36,7 @@ public class FrogGame {
         String currentSpecie = "x";
 
         /*
+            Spielstruktur für ein 3vs3 FroschGame:
 
              X
             II
@@ -59,7 +60,8 @@ public class FrogGame {
             II
             X
 
-            Somit lässt sich erkennen, dass ich je weiter die Reihe geht, auch genau um diese Anzahl auch jeweils eine Froschart verschieben muss.
+            Für den Anfang gilt also:
+            Je weiter die Reihe geht, muss ich um genau diese Anzahl auch jeweils eine Froschart verschieben.
 
             for (int a = 1; a <= amount; a++)
             sagt dabei aus, dass ich jede Reihe der Spielstruktur durchgehe
