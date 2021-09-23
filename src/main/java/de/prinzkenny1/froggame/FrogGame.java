@@ -36,7 +36,7 @@ public class FrogGame {
         String currentSpecie = "x";
 
         /*
-            Spielstruktur für ein 3vs3 FroschGame:
+            Spielablaufstruktur für ein 3vs3 FroschGame:
 
              X
             II
@@ -64,7 +64,7 @@ public class FrogGame {
             Je weiter die Reihe geht, muss ich um genau diese Anzahl auch jeweils eine Froschart verschieben.
 
             for (int a = 1; a <= amount; a++)
-            sagt dabei aus, dass ich jede Reihe der Spielstruktur durchgehe
+            sagt dabei aus, dass ich jede Reihe der Spielablaufstruktur durchgehe
 
             for (int n = 0; n < a; n++)
             sagt dabei aus, das die Froschart sich um die Anzahl, die a darstellt, nacheinander bewegen muss.
@@ -118,7 +118,7 @@ public class FrogGame {
 
         /*
 
-        Dies bildet den mittleren Teil der Spielstruktur wieder. Hierbei entfällt die erste for schleife (s.o.), da dies ja nur 1 mal geschehen muss.
+        Dies bildet den mittleren Teil der Spielablaufstruktur wieder. Hierbei entfällt die erste for schleife (s.o.), da dies ja nur 1 mal geschehen muss.
 
         for (int n = 0; n < amount; n++)
         sagt dabei aus, das die Froschart sich um die Anzahl, die amount darstellt, nacheinander bewegen muss.
@@ -169,11 +169,11 @@ public class FrogGame {
 
          /*
 
-        Dies bildet den unteren Teil der Spielstruktur wieder.
+        Dies bildet den unteren Teil der Spielablaufstruktur wieder.
 
         for (int a = amount; a >= 1; a--)
-        sagt dabei aus, dass ich jede Reihe der Spielstruktur durchgehe. Da a jetzt Anfangs groß ist und dann immer kleiner wird, resultiert das
-        in der Abnahme der Reihen der Spielstruktur.
+        sagt dabei aus, dass ich jede Reihe der Spielablaufstruktur durchgehe. Da a jetzt Anfangs groß ist und dann immer kleiner wird, resultiert das
+        in der Abnahme der Reihen der Spielablaufstruktur.
 
 
         Weitere Erklärungen zum Ablauf dem obigen Kommentar entnehmen.
